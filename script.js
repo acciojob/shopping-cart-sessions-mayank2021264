@@ -10,7 +10,7 @@ const products = [
 // DOM elements
 const productList = document.getElementById("product-list");
 const cartList = document.getElementById("cart-list");
-const clearBtn = document.getElementById("clear-cart"); // assume you have <button id="clear-cart">
+const clearBtn = document.getElementById("clear-cart-btn"); // assume you have <button id="clear-cart">
 
 // Load cart from sessionStorage (or empty if none)
 let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
